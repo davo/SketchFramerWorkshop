@@ -6,11 +6,13 @@
 # 6. Set Constraints, Events
 # 7. States / Animation
 
+# This is a comment
+
+
+
 # Variables
 string = "Hello there, "
 number = 42
-
-
 
 framerSaysHelloWorld = (message, person) ->
 	print message + person
@@ -22,7 +24,6 @@ sayHi = (message) ->
 
 # sayHi(string)
 
-# This is a comment
 
 
 

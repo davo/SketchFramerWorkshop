@@ -5,8 +5,19 @@
 # 5. Set Constraints, Events
 # 6. States / Animation
 
+# Append Script
+
+appendScript = (src) ->
+	parseScr = Utils.domLoadDataSync src
+	script = document.createElement 'script'
+	script.type = 'text/javascript'
+	script.innerHTML = parseScr
+	document.head.appendChild(script)
+	
+appendScript('https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js')
+
 # Set background
-bg = new BackgroundLayer backgroundColor: "#00AAFF"
+bg = new BackgroundLayer backgroundColor: "#FFFFFF"
 
 # New scroll component
 scroll = new ScrollComponent
@@ -47,8 +58,13 @@ for item in [0..items]
 	
 	headLine = new TextLayer
 		parent: layer
-		color: 'white'
-		text: Utils.randomNumber()
+		width: 200
+		color: "white"
+		fontFamily: "Helvetica"
+		fontSize: 18
+		x: 21
+		y: Align.center
+		text: faker.lorem.sentence()
 		
 	# Create a new state 
 	layer.states =
