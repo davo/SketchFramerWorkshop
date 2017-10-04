@@ -1,0 +1,10 @@
+<svg width="192" height="172" viewBox="0 0 192 172" xmlns="http://www.w3.org/2000/svg">
+  <g fill-rule="nonzero" fill="none">
+    <path fill="#FDB300" d="M41.89 5.663L96 0l54.11 5.663L192 61.333 96 172 0 61.333"/>
+    <path fill="#EA6C00" d="M38.885 62L96 172 0 62M153.115 62L96 172l96-110"/>
+    <path fill="#FDAD00" d="M38 62h114L95 172"/>
+    <path fill="#FDD231" d="M96 0L41.053 5.724 38 62M96 0l54.947 5.724L154 62"/>
+    <path fill="#FDAD00" d="M192 62L150 6l3.014 56M0 62L42 6l-3.014 56"/>
+    <path fill="#FEEEB7" d="M95 0L38 62h114"/>
+  </g>
+</svg>
