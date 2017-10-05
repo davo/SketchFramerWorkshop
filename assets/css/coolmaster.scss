@@ -157,18 +157,6 @@ h1 {
   }
 }
 
-[data-state="presentacion"] {
-
-	a {
-		color: white !important;
-	}
-
-  p {
-	text-align: left !important;
-  }
-}
-
-
 [data-state="image"] {
 	.reveal .slides > section {
 		background-color: rgba(0,0,0,0.9)
@@ -320,7 +308,7 @@ h4 {
 // }
 
 $backgroundColor: white;
-$linkColor: #00008B;
+$linkColor: white;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 

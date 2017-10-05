@@ -83,12 +83,6 @@ h1.main {
 [data-state="proyecto"] p {
   text-align: left !important; }
 
-[data-state="presentacion"] a {
-  color: white !important; }
-
-[data-state="presentacion"] p {
-  text-align: left !important; }
-
 [data-state="image"] .reveal .slides > section {
   background-color: rgba(0, 0, 0, 0.9); }
 
@@ -396,20 +390,20 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #00008B;
+  color: white;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #0000f1;
+  color: white;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #00003f; }
+  background: #d9d9d9; }
 
 /*********************************************
  * IMAGES
@@ -431,7 +425,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #00008B;
+  border-color: white;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -439,31 +433,31 @@ body {
  *********************************************/
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
-  border-right-color: #00008B; }
+  border-right-color: white; }
 
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
-  border-left-color: #00008B; }
+  border-left-color: white; }
 
 .reveal .controls .navigate-up,
 .reveal .controls .navigate-up.enabled {
-  border-bottom-color: #00008B; }
+  border-bottom-color: white; }
 
 .reveal .controls .navigate-down,
 .reveal .controls .navigate-down.enabled {
-  border-top-color: #00008B; }
+  border-top-color: white; }
 
 .reveal .controls .navigate-left.enabled:hover {
-  border-right-color: #0000f1; }
+  border-right-color: white; }
 
 .reveal .controls .navigate-right.enabled:hover {
-  border-left-color: #0000f1; }
+  border-left-color: white; }
 
 .reveal .controls .navigate-up.enabled:hover {
-  border-bottom-color: #0000f1; }
+  border-bottom-color: white; }
 
 .reveal .controls .navigate-down.enabled:hover {
-  border-top-color: #0000f1; }
+  border-top-color: white; }
 
 /*********************************************
  * PROGRESS BAR
@@ -472,7 +466,7 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #00008B;
+  background: white;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
@@ -538,7 +532,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #00008B;
+  border-color: white;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 .reveal img {
