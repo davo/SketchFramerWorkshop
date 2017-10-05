@@ -46,7 +46,7 @@ $.card.onTap ->
 $.back_btn1.onTap ->
 	flow.showPrevious()
 
-$.home.onTap ->
+$.back_btn.onTap ->
 	flow.showPrevious($.feedView)
 
 $.profile.onTap ->
