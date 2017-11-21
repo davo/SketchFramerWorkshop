@@ -1,7 +1,8 @@
 # A guide to work with Sketch & Framer
-Slides & prototypes for a Framer workshop.
-
+Repository for the slides and the code of my Framer mini-workshop about working with Sketch & Framer.
 October 2017, Brooklyn, NY.
+
+Watch recorded broadcast here: [YouTube Video](https://youtu.be/BgqS4hMekYw?t=1s)
 
 ---
 
